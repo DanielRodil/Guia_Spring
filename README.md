@@ -991,6 +991,7 @@ Para que la BD pueda hacer la relacion entre ambas Tablas, almacenara la PK de l
         ```
 
        > `MUY IMPORTANTE` Como se puede observar, en la clase tipo ElementoDeLaLista **Creo un campo** del tipo ClaseContenedora que tiene la coleccion ("PadreContenedor"). Por ejemplo que la clase Producto tenga un atributo. Aquí será donde se almacene la FK en los objetos Elementos de la lista
+       > `MUY IMPORTANTE` Crear Getter y Setter del campo para poder sincronizar en el siguiente apartado!!
         ```
         private Cliente cliente; 
         ```
